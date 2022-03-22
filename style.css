@@ -362,13 +362,13 @@ ul{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
-    
+
     [class*="column"] {
         width: 100%;
     }
