@@ -79,6 +79,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
+    z-index: 2;
 }
 
 .nav-item {
@@ -96,7 +97,7 @@ a:hover {
 }
 
 /*Hamburger menu*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -362,15 +363,11 @@ ul{
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
-    }
-
-    [class*="column"] {
-        width: 100%;
     }
 }
 
@@ -381,6 +378,12 @@ ul{
 .cv{
     text-align: center;
     padding-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.cv iframe{
+    height: 428px;
 }
 
 .titre-cv {
@@ -525,6 +528,11 @@ ul{
 
 section .row {
     text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
 }
 
 .box span .hello {
