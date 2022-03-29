@@ -467,6 +467,7 @@ ul{
 
 .box p {
     font-size: 1.6em;
+    padding-left: 20%;
 }
 
 .apropos-title p{
@@ -530,8 +531,8 @@ section .row {
     text-align: center;
 }
 
-.box img {
-    width: 100%;
+.image img {
+    width: 400%;
     height: auto;
 }
 
