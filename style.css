@@ -154,7 +154,7 @@ main p {
 }
 
 .name {
-    padding-top: 50%;
+    padding-top: 30%;
     font-size: 8em;
 }
 
@@ -181,11 +181,23 @@ main p {
     color: rgb(38, 142, 160);
 }
 
+.tools{
+    color: #475569;
+    font-size: 13px;
+    padding-top: 25%;
+    text-align: center;
+}
+
+.tools h1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                   FOOTER                                   */
 /* -------------------------------------------------------------------------- */
 .footer {
-    margin-top: 350px;
+    margin-top: 8%;
     background-color: #61D9D0;
     padding: 70px 0;
 }
